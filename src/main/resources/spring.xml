@@ -13,12 +13,14 @@
     -->
     <bean id="alien1" class="org.example.Alien" >
         <property name="age" value="21">
-
         </property>
+        <property name="lap" ref="lap1"></property>
     </bean>
+
     <bean id="alien2" class="org.example.Alien">
     </bean>
-    <bean id="lap" class="org.example.Laptop">
+
+    <bean id="lap1" class="org.example.Laptop">
     </bean>
 
 </beans>
