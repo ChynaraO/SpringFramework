@@ -12,9 +12,14 @@
     <bean id="alien1" class="org.example.Alien" scope="prototype">
     -->
     <bean id="alien1" class="org.example.Alien" >
-        <property name="age" value="21">
-        </property>
-        <property name="lap" ref="lap1"></property>
+        <constructor-arg index="1" ref="lap1" />
+
+        <constructor-arg index="0" value="21" />
+
+<!--        <property name="age" value="21">-->
+
+<!--        </property>-->
+<!--        <property name="lap" ref="lap1"></property>-->
     </bean>
 
     <bean id="alien2" class="org.example.Alien">
