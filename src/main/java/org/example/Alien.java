@@ -3,36 +3,35 @@ package org.example;
 public class Alien {
 
     private int age;
-    private Laptop lap;
+    private Computer com;
+
 
     public Alien(){
         System.out.println("Object is created");
     }
-    public Alien(int age, Laptop lap){
-        this.lap = lap;
-        this.age = age;
-    }
+//    public Alien(int age, Laptop lap){
+//        this.lap = lap;
+//        this.age = age;
+//    }
 
-
-    public Laptop getLap() {
-        return lap;
-    }
-
-    public void setLap(Laptop lap) {
-        this.lap = lap;
-    }
 
     public int getAge() {
         return age;
     }
-
     public void setAge(int age) {
         System.out.println("setter is being called");
         this.age = age;
     }
 
+    public Computer getCom() {
+        return com;
+    }
+    public void setCom(Computer com) {
+        this.com = com;
+    }
+
     public void code(){
         System.out.println("Coding");
-        lap.compile();
+        com.compile();
     }
 }
