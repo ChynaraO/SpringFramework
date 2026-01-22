@@ -7,7 +7,7 @@ public class Alien {
 
 
     public Alien(){
-        System.out.println("Object is created");
+//        System.out.println("Object is created");
     }
 //    public Alien(int age, Laptop lap){
 //        this.lap = lap;
@@ -19,7 +19,7 @@ public class Alien {
         return age;
     }
     public void setAge(int age) {
-        System.out.println("setter is being called");
+//        System.out.println("setter is being called");
         this.age = age;
     }
 
