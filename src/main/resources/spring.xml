@@ -20,9 +20,9 @@
     <bean id="alien2" class="org.example.Alien">
     </bean>
 
-    <bean id="com" class="org.example.Laptop" primary="true">
+    <bean id="com1" class="org.example.Laptop" primary="true">
     </bean>
-    <bean id="lap2" class="org.example.Desktop">
+    <bean id="com2" class="org.example.Desktop" lazy-init="true">
     </bean>
 
 </beans>
