@@ -28,11 +28,11 @@ public class Alien {
         this.age = age;
     }
 
-//    @Qualifier("desktop")
     public Computer getCom() {
         return com;
     }
-//    @Autowired
+    @Autowired
+    @Qualifier("desktop")
     public void setCom(Computer com) {
         this.com = com;
     }
